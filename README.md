@@ -72,11 +72,129 @@ Obsidian 是一款强大的知识管理工具，被称为"你的第二大脑"。
 
 - **Markdown.md** - Markdown 语法参考指南
 
-## 使用方法
+## 快速开始
 
-1. 安装 [Obsidian](https://obsidian.md/)
-2. 在 Obsidian 中打开此目录作为 vault
-3. 开始浏览和编辑笔记
+### 安装和设置
+
+1. **下载安装**
+   - 访问 [Obsidian 官网](https://obsidian.md/) 下载对应平台的版本
+   - 支持 Windows、macOS、Linux、iOS、Android
+
+2. **打开 Vault**
+   - 启动 Obsidian
+   - 选择"打开本地仓库"
+   - 选择此笔记目录：`/Volumes/Samsung SSD 2TB/work/Notes`
+
+3. **开始使用**
+   - 左侧是文件浏览器
+   - 中间是编辑区域
+   - 右侧可显示反向链接、大纲、标签等面板
+
+### 常用快捷键
+
+#### macOS
+
+| 快捷键 | 功能 |
+| --- | --- |
+| `Cmd + N` | 新建笔记 |
+| `Cmd + O` | 快速打开（搜索笔记） |
+| `Cmd + P` | 命令面板 |
+| `Cmd + E` | 切换编辑/预览模式 |
+| `Cmd + F` | 在当前笔记中搜索 |
+| `Cmd + Shift + F` | 全库搜索 |
+| `Cmd + K` | 插入链接 |
+| `Cmd + [` | 返回上一个笔记 |
+| `Cmd + ]` | 前进到下一个笔记 |
+| `Cmd + Click` | 在新窗格打开链接 |
+
+#### Windows/Linux
+
+将上述 `Cmd` 替换为 `Ctrl` 即可。
+
+### 基本使用技巧
+
+#### 创建双向链接
+
+```markdown
+今天学习了 [[JavaScript]] 的异步编程。
+相关概念：[[Promise]] 和 [[async/await]]
+```
+
+#### 使用标签分类
+
+```markdown
+#编程 #JavaScript #学习笔记
+```
+
+#### 嵌入内容
+
+```markdown
+嵌入整个笔记：![[笔记名称]]
+嵌入图片：![[image.png]]
+嵌入 PDF：![[document.pdf]]
+```
+
+#### 使用别名
+
+在笔记的 YAML front matter 中定义别名：
+
+```yaml
+---
+aliases: [JS, Javascript]
+tags: [编程, 前端]
+---
+```
+
+#### 任务管理
+
+```markdown
+- [ ] 待办事项 1
+- [x] 已完成事项
+- [ ] 待办事项 2
+```
+
+### 推荐插件
+
+#### 核心插件（内置）
+
+- **日记 (Daily Notes)** - 每日笔记记录
+- **模板 (Templates)** - 使用模板快速创建笔记
+- **反向链接 (Backlinks)** - 显示引用当前笔记的其他笔记
+- **大纲 (Outline)** - 显示当前笔记的标题结构
+- **标签面板 (Tags)** - 浏览所有标签
+
+#### 社区插件推荐
+
+- **Calendar** - 日历视图，方便管理日记
+- **Dataview** - 将笔记当作数据库查询
+- **Templater** - 更强大的模板功能
+- **Kanban** - 看板任务管理
+- **Excalidraw** - 手绘图表
+- **Mind Map** - 思维导图
+- **Advanced Tables** - 增强表格编辑
+- **Image Auto Upload** - 自动上传图片到图床
+
+### 同步方案
+
+1. **Obsidian Sync**（官方付费服务）
+   - 端到端加密
+   - 自动同步
+   - 版本历史
+
+2. **iCloud / OneDrive / Dropbox**
+   - 使用云盘同步文件夹
+   - 免费方案
+
+3. **Git**（推荐给开发者）
+   - 使用 Git 进行版本控制
+   - 配合 GitHub/GitLab 实现多端同步
+   - 本仓库已使用此方案
+
+### 学习资源
+
+- [Obsidian 官方文档](https://help.obsidian.md/)
+- [Obsidian 中文社区](https://forum-zh.obsidian.md/)
+- [Obsidian Hub](https://publish.obsidian.md/hub/) - 插件、主题、工作流分享
 
 ## 版本控制
 
