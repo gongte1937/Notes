@@ -1,0 +1,22 @@
+{
+  "git.autorefresh": true,
+  "git.untrackedChanges": "mixed",
+
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true,
+    "**/coverage/**": true,
+    "**/Daily Notes/**": true,
+    "**/Interview/**": true,
+    "**/Tech/**": true,
+    "**/Skills/**": true
+  },
+
+  "search.exclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true
+  }
+}

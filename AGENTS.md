@@ -50,5 +50,12 @@ Recent history favors short, imperative commit messages (for example, `update da
 ## Security & Configuration Tips
 Do not commit secrets or personal credentials. If sensitive information is needed, redact it or store it outside version control.
 
-## Agent-Specific Instruction
+## Agent-Specific Instructions
+
 When editing or creating notes in this vault, first review related materials under `Skills/` and align terminology, structure, and linking style with existing notes there when applicable.
+
+### Formatting / Cleanup Skill
+When asked to format or clean up any Markdown file, follow the checklist in `Skills/format-markdown.md` before making changes.
+
+### Explanation Skill
+When asked to explain a concept or technology, follow the structure defined in `Skills/explaination.md`: start with background (what the world looked like before it existed), describe the concrete problem it solved, explain the solution approach, and optionally end with a one-line summary. Use plain language and everyday analogies throughout.
